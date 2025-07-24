@@ -1,4 +1,4 @@
-# 🧑‍🍳 Desi Delights
+#  👩‍🍳🍛 Desi Delights 
 
 **Desi Delights** is a modern recipe-sharing web platform that allows users to create, upload, and explore various recipes with images, cooking time, and feedback. Designed with a clean interface and secure backend, it's perfect for food enthusiasts and hobbyist chefs.
 
