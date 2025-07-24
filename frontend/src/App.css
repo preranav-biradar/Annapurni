@@ -1,0 +1,209 @@
+body{
+  background-color: #F8F1FF;
+}
+
+.navbar-left a {
+  color: black !important;
+}
+
+.navbar-right a {
+  color: black !important;
+}
+
+.navbar-right button {
+  color: black !important;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevents any unwanted horizontal scrolling */
+}
+
+#root, .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Ensures it spans full width */
+  height: 80px;
+  background-color:palevioletred;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.navbar-left {
+  font-size: 25px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 10px;
+}
+
+a, .navbar button {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover, .navbar button:hover {
+  scale: 1.1;
+  border-bottom: 2px dotted red;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  position: relative;
+  bottom: 0;
+}
+
+.auth, .auth-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 20px; /* Adds spacing between the forms */
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: fit-content; /* Adjusts to content size */
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Fixed width for both forms */
+}
+
+.create-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.auth {
+  height: 380px;
+  background-color: #f2f2f2;
+}
+
+.auth-container {
+  width: 400px;
+}
+
+.create-recipe {
+  width: 300px;
+}
+
+.create-recipe form, .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+li {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+p {
+  max-width: 400px;
+  font-size: 12px;
+  display: -webkit-box;
+  line-clamp: 5;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 6em;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: skyblue!important;
+}
