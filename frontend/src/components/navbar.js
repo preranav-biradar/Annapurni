@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
 
@@ -14,8 +15,11 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <Link to="/"><i class="fa-solid fa-crown"></i>DesiDelights</Link>
+        <Link to="/">Recipes</Link>
       </div>
+<div className="navbar-middle">
+  <Link to="#" className="nav-link"><i class="fa-solid fa-crown"></i>Annapurni</Link>
+</div>
       <div className="navbar-right">
       
       <Link to="/create-recipe">New</Link>

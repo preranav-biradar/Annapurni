@@ -15,7 +15,7 @@ export const Privacy = () => {
       <h2>3. Data Protection</h2>
       <p>We implement security measures to ensure your data is safe and not shared with unauthorized parties.</p>
       <h2>4. Contact Us</h2>
-      <p>If you have any questions, feel free to reach out to us at Desidelights@gmail.com.</p>
+      <p>If you have any questions, feel free to reach out to us at Annapurni@gmail.com.</p>
     </div>
   );
 };

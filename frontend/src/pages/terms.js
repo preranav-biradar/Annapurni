@@ -4,7 +4,7 @@ export const Terms = () => {
   return (
     <div style={{ padding: "20px", maxWidth: "800px", margin: "0 auto" }}>
       <h1 style={{ textAlign: "center" }}>Terms & Conditions</h1>
-      <p>Welcome to SwaadConnect! By using our platform, you agree to the following terms and conditions:</p>
+      <p>Welcome to Annapurni! By using our platform, you agree to the following terms and conditions:</p>
 
       <h2>1. User Responsibilities</h2>
       <p>Users must ensure that the recipes they share are original or properly credited.</p>
@@ -22,7 +22,7 @@ export const Terms = () => {
       <p>We may update these terms from time to time. Continued use of the platform constitutes agreement to the new terms.</p>
 
       <p style={{ textAlign: "center", marginTop: "20px", fontWeight: "bold" }}>
-        If you have any questions, please contact us at Desidelights@gmail.com.
+        If you have any questions, please contact us at Annapurni@gmail.com.
       </p>
     </div>
   );

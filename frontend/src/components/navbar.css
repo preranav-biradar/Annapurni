@@ -1,0 +1,20 @@
+.navbar-middle {
+  display: flex;
+  justify-content: center; /* keep roughly centered */
+  text-align: center;
+  /* shift a bit right */
+  margin-left: 100px; /* adjust value to move more or less */
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;     
+  padding: 10px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: white;    
+}

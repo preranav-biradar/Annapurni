@@ -16,7 +16,7 @@ export const Footer = () => {
           </a>
           &nbsp;&nbsp;&nbsp;
           <a
-            href="https://www.instagram.com/yourusername"
+            href="https://www.instagram.com/prerana.v.b/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -33,7 +33,7 @@ export const Footer = () => {
         </div>
 
         <div className="f-info-brand">
-          <strong>DesiDelights Pvt. Ltd.</strong> &copy; 2025 — Crafted by{" "}
+          <strong>Annapurni Pvt. Ltd.</strong> &copy; 2025 — Crafted by{" "}
           <span className="creator-name">Prerana Biradar</span>
         </div>
 

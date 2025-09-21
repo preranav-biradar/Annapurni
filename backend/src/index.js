@@ -15,6 +15,10 @@ app.use(cors());
 app.use("/auth", userRouter);
 app.use("/recipes", recipesRouter);
 
+app.get("/", (req, res) => {
+  res.send("Backend server is running 🚀");
+});
+
 mongoose.connect(
   MONGO_URL,
   {
