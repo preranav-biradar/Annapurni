@@ -1,6 +1,6 @@
-#  👩‍🍳🍛 Desi Delights 
+# 👩‍🍳🍛 Annapurni
 
-**Desi Delights** is a modern recipe-sharing web platform that allows users to create, upload, and explore various recipes with images, cooking time, and feedback. Designed with a clean interface and secure backend, it's perfect for food enthusiasts and hobbyist chefs.
+**Annapurni** is a modern recipe-sharing web platform that allows users to create, upload, and explore various recipes with images, cooking time, and feedback. Designed with a clean interface and secure backend, it's perfect for food enthusiasts and hobbyist chefs.
 
 ---
 
@@ -13,6 +13,7 @@
 - 🏨 Optional Hotel Name Tagging
 - ✅ Terms & Conditions Validation
 - 💬 Feedback & Comment Section
+- ⭐ Wishlist / Saved Recipes
 
 ---
 
@@ -34,10 +35,10 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/preranav-biradar/desi-delights.git
+git clone https://github.com/preranav-biradar/Annapurni.git
 
 # Backend
-cd desi-delights/backend
+cd Annapurni/backend
 npm install
 npm start
 
@@ -45,3 +46,16 @@ npm start
 cd ../frontend
 npm install
 npm run dev
+```
+---
+## Project Structure 
+
+Annapurni/
+├─ backend/        # Node.js & Express backend
+├─ frontend/       # React frontend
+├─ public/         # Public assets
+└─ README.md       # Project documentation
+
+---
+##Author 
+Prerana Biradar
